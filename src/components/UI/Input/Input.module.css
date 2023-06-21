@@ -1,0 +1,33 @@
+.Input {
+  margin-bottom: 20px;
+}
+
+.Input input {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 10px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  border: 1px solid #1a1a1a;
+  width: 100%;
+  transition: border-color 0.25s;
+}
+
+.Input label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Input.invalid input {
+  border-color: red;
+}
+
+.Input.invalid small {
+  display: block;
+  color: red;
+  margin-top: 5px;
+  font-size: 12px;
+}
